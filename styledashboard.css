@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:aliceblue;
+}
+
+.container {
+    width: 40%;
+    margin: 30 auto;
+    padding: 20px

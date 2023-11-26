@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            background-image: url(https://mithunmatehome.files.wordpress.com/2019/08/1515757026admission-block.jpg);
+            background-size: cover;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4CAF50;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .timetable {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            margin: 20px auto;
+            overflow-x: auto;
+            background-image: url(https://images.pexels.com/photos/158854/pexels-photo-158854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size:cover ;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Timetable</h1>
+    </header>
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="students.html">Students</a>
+        <a href="course.html">Courses</a>
+        <a href="faculty.html">Faculty</a>
+        <a href="profile.html">Profile</a>
+    </nav>
+
+    <section>
+        <div class="timetable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:00 AM - 10:30 AM</td>
+                        <td>Computer Science</td>
+                        <td>Mathematics</td>
+                        <td>Physics</td>
+                        <td>Chemistry</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM - 12:30 PM</td>
+                        <td>Electronics</td>
+                        <td>CSE326</td>
+                        <td>Computer Networks</td>
+                        <td>Soft skill</td>
+                        <td>ECE Labouratory</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM - 12:30 PM</td>
+                        <td>Mathematics</td>
+                        <td>Physics</td>
+                        <td>Computer Networks</td>
+                        <td>English</td>
+                        <td>Chemistry</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 University Management System</p>
+    </footer>
+
+</body>
+</html>
